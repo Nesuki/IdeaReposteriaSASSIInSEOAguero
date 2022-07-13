@@ -2,6 +2,23 @@ body {
   margin: 40px;
 }
 
+.main_class, .class1, .class2, .class3 {
+  color: #333;
+  border: 1px solid #ff6347;
+  box-shadow: 3px 5px 0 #0f9;
+  margin: 0 0 10px;
+  padding: 12px;
+}
+.class1 {
+  background-color: #cfc;
+}
+.class2 {
+  background-color: #f2e6ff;
+}
+.class3 {
+  background-color: #ffccf2;
+}
+
 /*variables*/
 #Encabezado .flexgroup {
   display: flex;
@@ -79,6 +96,7 @@ a:hover {
   grid-column: col 1/span 4;
   grid-row: row 2;
   height: auto;
+  width: auto;
   background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122));
 }
 
@@ -86,6 +104,7 @@ a:hover {
   grid-column: col 1/span 1;
   grid-row: row 3;
   height: auto;
+  width: auto;
   background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122));
 }
 
@@ -101,6 +120,7 @@ a:hover {
   grid-column: col 2/span 3;
   grid-row: row 4;
   height: auto;
+  width: auto;
   background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122));
 }
 
@@ -116,6 +136,7 @@ a:hover {
   grid-column: col 1/span 1;
   grid-row: row 5;
   height: auto;
+  width: auto;
   background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122));
 }
 
@@ -131,7 +152,8 @@ a:hover {
   display: flex;
   grid-column: col 1/span 4;
   grid-row: row 1;
-  height: 100%;
+  height: auto;
+  width: 100%;
   justify-content: center;
   background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122));
 }
@@ -147,6 +169,7 @@ a:hover {
   grid-column: col 1/span 1;
   grid-row: row 5;
   height: 39rem;
+  width: auto;
   background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122));
 }
 
@@ -261,4 +284,5 @@ a:hover {
   100% {
     opacity: 1;
   }
+  
 }/*# sourceMappingURL=main.css.map */

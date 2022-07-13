@@ -23,5 +23,5 @@
  }   
  
  .k {
-    @include sizes(39rem, auto);
+    @include sizes(auto, 39rem);
  }   

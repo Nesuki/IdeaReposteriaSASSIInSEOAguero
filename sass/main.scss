@@ -2,14 +2,15 @@ body {
     margin: 40px;
   }
   
-  
-  @import 'mixin';
+  @import 'extend';
   @import 'vars';
+  @import 'mixin';
   @import 'maps';
   @import 'header';
   @import 'grid';
   @import 'media';
 
+  
   
   @keyframes aparecer {
     0% {
