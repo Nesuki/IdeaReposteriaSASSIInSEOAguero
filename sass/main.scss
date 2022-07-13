@@ -1,0 +1,23 @@
+body {
+    margin: 40px;
+  }
+  
+  
+
+  @import 'vars';
+  @import 'maps';
+  @import 'header';
+  @import 'grid';
+  @import 'media';
+
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  

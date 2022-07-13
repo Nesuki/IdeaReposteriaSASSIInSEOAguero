@@ -1,0 +1,13 @@
+
+$colors: (
+    menu-item: #FF8FB1,
+    flex-item: #FF8FB1,
+    item: #444
+   );
+   
+   @each $name-color, $bgcolor in $colors {
+      .grid-#{$name-color} {
+          background-color: $bgcolor;
+      }
+   }
+   

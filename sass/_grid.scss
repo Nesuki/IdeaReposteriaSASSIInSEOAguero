@@ -1,0 +1,112 @@
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col];
+    grid-template-rows: [row] auto [row] auto [row];
+    margin: auto;
+    color: $colorGrid;
+  }
+  
+  .grid-item {
+    background-color: #$colorGrid;
+    color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 150%;
+    animation-duration: 0.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+  }
+  
+  .grid-menu-item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid $colorBase;
+    background-color: $colorHeader;
+  }
+  
+  .a {
+    grid-column: col 1 / span 4;
+    grid-row: row;
+    justify-content: center;
+    width: 100%;
+    background-image:$colorGridGradient;
+  }
+  
+  .b {
+    display: flex;
+    justify-content: center;
+    grid-column: col (1 / span) 4;
+    grid-row: row 2;
+    height: auto;
+    background-image: $colorGridGradient;
+  }
+  
+  .c {
+    grid-column: col 1 / span 1;
+    grid-row: row 3;
+    height: auto;
+    background-image: $colorGridGradient;
+  }
+  
+  .d {
+    display: flex;
+    text-align: center;
+    grid-column: col (2 / span) 3;
+    grid-row: row 3;
+    background-image: $colorGridGradient;
+  }
+  
+  .f {
+    grid-column: col 2 / span 3;
+    grid-row: row 4;
+    height: auto;
+    background-image: $colorGridGradient;
+  }
+  
+  .g {
+    display: flex;
+    text-align: center;
+    grid-column: col 1 /span 1;
+    grid-row: row 4;
+    background-image: $colorGridGradient;
+  }
+  
+  .h {
+    grid-column: col 1 / span 1;
+    grid-row: row 5;
+    height: auto;
+    background-image: $colorGridGradient;
+  }
+  
+  .i {
+    display: flex;
+    text-align: center;
+    grid-column: col 2 / span 3;
+    grid-row: row 5;
+    background-image: $colorGridGradient;
+  }
+  
+  .j {
+    display: flex;
+    grid-column: col (1 / span) 4;
+    grid-row: row 1;
+    height: 100%;
+    justify-content: center;
+    background-image: $colorGridGradient;
+  }
+  
+  .e {
+    grid-column: col / span 4;
+    grid-row: row 6;
+    background-image: $colorGridGradient;
+  }
+  
+  .k {
+    display: flex;
+    grid-column: col (1 / span) 1;
+    grid-row: row 5;
+    height: 39rem;
+    background-image: $colorGridGradient;
+  }
