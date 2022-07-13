@@ -1,0 +1,27 @@
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .b {
+    @include sizes(auto, auto);
+ }
+ 
+ .c {
+    @include sizes(auto, auto);
+ }
+ 
+ .f {
+    @include sizes(auto, auto);
+ }
+ 
+ .h {
+    @include sizes(auto, auto);
+ }
+ 
+ .j {
+    @include sizes(100%, auto);
+ }   
+ 
+ .k {
+    @include sizes(39rem, auto);
+ }   
